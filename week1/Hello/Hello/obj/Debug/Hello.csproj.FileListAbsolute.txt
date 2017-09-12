@@ -1,0 +1,6 @@
+C:\Users\Bobur\Desktop\PT2\week1\Hello\Hello\bin\Debug\Hello.exe.config
+C:\Users\Bobur\Desktop\PT2\week1\Hello\Hello\bin\Debug\Hello.exe
+C:\Users\Bobur\Desktop\PT2\week1\Hello\Hello\bin\Debug\Hello.pdb
+C:\Users\Bobur\Desktop\PT2\week1\Hello\Hello\obj\Debug\Hello.csprojResolveAssemblyReference.cache
+C:\Users\Bobur\Desktop\PT2\week1\Hello\Hello\obj\Debug\Hello.exe
+C:\Users\Bobur\Desktop\PT2\week1\Hello\Hello\obj\Debug\Hello.pdb
