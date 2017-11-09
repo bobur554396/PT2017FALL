@@ -49,6 +49,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.display = new System.Windows.Forms.TextBox();
             this.button10 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button21
@@ -280,11 +281,23 @@
             this.button10.Text = "<-";
             this.button10.UseVisualStyleBackColor = true;
             // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(623, 160);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(103, 81);
+            this.button12.TabIndex = 44;
+            this.button12.Text = "n!";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(687, 763);
+            this.ClientSize = new System.Drawing.Size(751, 771);
+            this.Controls.Add(this.button12);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button21);
             this.Controls.Add(this.button22);
@@ -337,6 +350,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox display;
         private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button12;
     }
 }
 

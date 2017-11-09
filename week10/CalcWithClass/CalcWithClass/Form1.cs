@@ -40,7 +40,8 @@ namespace CalcWithClass
         private void result_click(object sender, EventArgs e)
         {
             calc.secondNumber = float.Parse(display.Text);
-            display.Text = calc.getResult() + "";
+            calc.execute();
+            display.Text = calc.result + "";
         }
 
 
@@ -59,6 +60,18 @@ namespace CalcWithClass
         {
             calc.tmp = float.Parse(display.Text);
             display.Text = calc.PM().ToString();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(display.Text);
+            int res = 1;
+            for(int i = 1; i <= a; i++)
+            {
+                res *= i;
+            }
+
+            display.Text = res + "";
         }
     }
 }

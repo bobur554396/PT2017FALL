@@ -13,8 +13,9 @@ namespace CalcWithClass
         public float result;
         public string operation;
         public float tmp;
+        public float memory = 0;
 
-        public float getResult()
+        public void execute()
         {
             switch (operation)
             {
@@ -25,7 +26,6 @@ namespace CalcWithClass
                     result = firstNumber * secondNumber;
                     break;
             }
-            return result;
         }
 
         public float PM()
